@@ -1,0 +1,131 @@
+body {
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+
+
+/* Top */
+header {
+
+        background-color: white;
+        display: flex;
+        text-align: center;
+        padding: 20px 0;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-direction: column;
+        letter-spacing: 8px;
+}
+h1 {
+    font-size: 40px;
+    color: black;
+    font-family: 'Martel Sans', sans-serif;
+    font-style: bold;
+    margin: 0;
+    align-self: flex-start;
+}
+
+#main-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color: black;
+    margin-top: 20px;
+    font-style: bold;
+    letter-spacing: 2px;
+}
+
+#main-nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    justify-content: center;
+}
+
+#main-nav a:hover {
+    color: pink;
+}
+
+/* Middle */
+.products {
+    color: black;
+    background-color: white;
+}
+
+.product__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    /* fr = fraction */
+    grid-gap: 20px;
+    justify-items:center;
+    margin: 0 auto;
+    position: relative;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+
+.overlay-text1 {
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+.overlay-text2 {
+    position: absolute;
+    bottom : 20%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+.overlay-text3 {
+    position: absolute;
+    bottom: 20%;
+    right: 10%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+
+.card img {
+    width: 100%;
+    border-top: 40px solid black;
+    border-bottom: 40px solid black;
+}
+
+
+/* Bottom */
+
+.contact {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.contact__text {
+    width: 50%;
+    color: white;
+
+}
+
+footer img {
+    width: 150px;
+}
+
+footer {
+    background-color:black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+}
